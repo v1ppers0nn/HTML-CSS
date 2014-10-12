@@ -1,0 +1,92 @@
+body {
+    font-family: tahoma;
+    font-size: 18px;
+}
+
+th {
+    font-size: 48px;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 100px;
+    height: 80px;
+    padding: 5px;
+}
+
+table {
+    border: 1px solid black;
+}
+
+#second-table{
+    width: 115px;
+    height: 75px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+table tbody tr:nth-child(1) td:nth-child(1) {
+    vertical-align: top;
+    text-align: left;
+}
+
+
+table tbody tr:nth-child(1) td:nth-child(2) {
+    vertical-align: top;
+    text-align: right;
+}
+
+
+table tbody tr:nth-child(2) td:nth-child(1) {
+    vertical-align: top;
+    text-align: center;
+}
+
+table tbody tr:nth-child(2) td:nth-child(2) {
+    vertical-align: middle;
+    text-align: left;
+}
+
+table tbody tr:nth-child(2) td:nth-child(3) {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+table tbody tr:nth-child(2) td:nth-child(4) {
+    vertical-align: middle;
+    text-align: left;
+}
+
+table tbody tr:nth-child(3) td:nth-child(1) {
+    vertical-align: bottom;
+    text-align: right;
+}
+
+table tbody tr:nth-child(3) td:nth-child(2) {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+table tfoot tr:nth-child(1) td:nth-child(1) {
+    font-weight: bold;
+    font-size: 26px;
+    vertical-align: middle;
+    text-align: right;
+}
+
+table tfoot tr:nth-child(1) td:nth-child(2) {
+    vertical-align: middle;
+    text-align: left;
+}
+
+#second-table td {
+    font-size: 14px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.second-td {
+    height: 50px;
+    width: 50px;
+    font-weight: bold;
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: tahoma;
+    font-size: 16px;
+    color: white;
+    text-align: right;
+}
+
+table {
+    background: #234465;
+    padding-left: 20px;
+}
+
+ul li {
+    display: inline;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.search {
+    border-radius:25px;
+    background:rgba(50, 50, 50, 0.2);
+    border: 1px solid #dbdbdb;
+}
+.button {
+    border-radius:15px;
+
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}

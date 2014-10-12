@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>PowerPoint Slide</title>
+    <style>
+        body {
+            background: url("background.png");
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: #FFCC66;
+            font: Calibri;
+            font-size: 38;
+            font-weight: bold;
+        }
+
+        h2{
+            font: Calibri;
+            font-size: 34;
+            text-shadow: 1px;
+        }
+
+        ul{
+            color: #ffffff;
+            list-style: url(square.png);
+        }
+
+        ol{
+            color: #ffffff;
+            list-style: none;
+        }
+
+        span{
+            color: #FFCC66;
+        }
+
+        .section {
+            width: 70%;
+            background-color:rgba(61,61,57,0.5);
+            border:1px solid white;
+            margin-top:1%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Headings and Paragraphs</h1>
+
+    <ul type="square">
+        <li><h2>Heading tags: <span>&#60;h1&#62;</span> - <span>&#60;h6&#62;</span></h2></li>
+            <div>
+                <ol class="section" type="none">
+                    <li>&#60;h1&#62;Heading 1 &#60;/h1&#62;</li>
+                    <li>&#60;h2&#62;Sub heading 2 &#60;/h2&#62;</li>
+                    <li>&#60;h3&#62;Sub heading 3 &#60;/h3&#62;</li>
+                </ol>
+            </div>
+
+        <li><h2>Paragraph Tags: <span>&#60;p&#62;</span></h2></li>
+        <div>
+            <ol class="section" type="none">
+                <li>&#60;p&#62;This is my first paragraph&#60;/p&#62;</li>
+                <li>&#60;p&#62;This is my second paragraph&#60;/p&#62;</li>
+            </ol>
+        </div>
+
+        <li><h2>Sections: <span>&#60;div&#62;</span> and <span>&#60;span&#62;</span></h2></li>
+        <div>
+            <ol class="section" type="none">
+                <li>&#60;div style="background: skyblue;"&#62;</li>
+                <li>&nbsp; &nbsp; &nbsp; This is a div</li>
+                <li>&#60;/div&#62;</li>
+            </ol>
+        </div>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Styling a HTML Form</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+<div>
+    <form action="post">
+        <h3>Step 1: Your details</h3>
+        <fieldset>
+            <div>
+                <label for="Name">Name</label>
+                <input type="text" id="Name" placeholder="First and last name"/>
+            </div>
+            <div>
+                <label for="mail">Email</label>
+                <input type="text" id="mail" placeholder="example@domain.com"/>
+            </div>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" placeholder="eg. +4475000000000"/>
+            </div>
+        </fieldset>
+        <h3>Step 1: Delivery adress</h3>
+        <fieldset>
+            <div id="text">
+                <label for="adress">Adress</label>
+                <textarea name="Adress" id="adress"></textarea>
+            </div>
+            <div>
+                <label for="post">Post Code</label>
+                <input type="number" id="post"/>
+            </div>
+            <div>
+                <label for="country">Country</label>
+                <input type="text" id="country"/>
+            </div>
+        </fieldset>
+        <h3>Step 1: Card details</h3>
+        <fieldset>
+            <div>
+                <span>Card type</span>
+                <br />
+                <input class="card" type="radio" name="radio-cards" id="visa">
+                <img class="png" src="visa.png" alt="visa" title="visa" width="40px" height="20px">
+                <label class="card" for="visa">VISA</label>
+                <input class="card" type="radio" name="radio-cards" id="amex">
+                <img class="png" src="amex.png" alt="amex" title="amex" width="40px" height="20px">
+                <label class="card" for="amex">AmEx</label>
+                <input class="card" type="radio" name="radio-cards" id="mastercard">
+                <img class="png" src="mastercard.png" alt="mastercard" title="mastercard" width="40px" height="20px">
+                <label class="card" for="mastercard">Mastercard</label><br>
+            </div>
+            <div>
+                <label for="cn">Card number</label>
+                <input type="number" id="cn"/>
+            </div>
+            <div>
+                <label for="sc">Security code</label>
+                <input type="number" id="sc" placeholder=""/>
+            </div>
+            <div>
+                <label for="namecard">Name on card</label>
+                <input type="text" id="namecard" placeholder="exact name as on the card"/>
+            </div>
+        </fieldset>
+    </form>
+    <button>BUY IT!</button>
+</div>
+</body>
+</html>

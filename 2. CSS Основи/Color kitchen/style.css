@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("background.jpg");
+    background-repeat: repeat;
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+body > header {
+    background: linear-gradient(to right, red 33.33%, green 33.33%, green 66.66%, blue 66.67%) ;
+    color: yellow;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+aside {
+    float: left;
+    display: block;
+    background: rgba(255, 255, 255,0.9);
+    width: 250px;
+    margin: 25px 0 0 15px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+
+article {
+    float: right;
+    display: block;
+    background: rgba(255, 255, 255,0.9);
+    border-radius: 25px;
+}
+
+nav {
+    margin: 10px 10px 10px 5px;
+}
+
+nav > header {
+    font-size: 26px;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 13px;
+
+}
+
+li {
+    background-image: url("check.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position: 5% 50%;
+    padding: 6px 0 6px 40px;
+    font-size: 14px;
+    display: block;
+}
+
+li a {
+    text-decoration: none;
+    color: black
+}
+
+#webColors {
+    background: red;
+    padding: 5px;
+}
+
+a:visited {
+    color: #808080;
+}
+
+li:nth-child(1):hover {
+    background-color: red;
+    border-radius: 8px;
+}
+
+li:nth-child(2):hover {
+    background-color: orange;
+    border-radius: 8px;
+}
+
+li:nth-child(3):hover {
+    background-color: yellow;
+    border-radius: 8px;
+}
+
+li:nth-child(4):hover {
+    background-color: green;
+    border-radius: 8px;
+}
+
+li:nth-child(5):hover {
+    background-color: blue;
+    border-radius: 8px;
+}
+
+li:last-child:hover {
+    background-color: purple;
+    border-radius: 8px;
+}
+
+section {
+    margin: 25px 15px 0 310px;
+}
+
+article {
+    margin: 15px 15px 0 0;
+    padding: 10px;
+}
+
+article:last-of-type {
+    margin-bottom: 20px;
+}
+
+#webColors, #webSafeColors, #RGB, #RGBA, #\#HSLHSV, #\#lorem {
+    font-size: 2em;
+    padding: 10px;
+    margin: 6px;
+}
+
+#webColors {
+    background-color: #ff0000;
+    border-radius: 8px;
+    color: white;
+}
+
+#webSafeColors {
+    background-color: #ffa500;
+    border-radius: 8px;
+    color: black;
+}
+
+#RGB {
+    background-color: #ffff00;
+    border-radius: 8px;
+    color: black;
+}
+
+#RGBA {
+    background-color: #008000;
+    border-radius: 8px;
+    color: white;
+}
+
+#\#HSLHSV {
+    background-color: #0000ff;
+    border-radius: 8px;
+    color: white;
+}
+
+#\#lorem {
+    background-color: #800080;
+    border-radius: 8px;
+    color: white;
+}
+
+section article div:first-letter {
+    font-size: 4em;
+}
+
+section article div:first-line {
+    font-style: italic;
+}
+
+section article span:first-of-type {
+    font-style: italic;
+    color: #00008b;
+}
+
+span:lang(la):before {
+    content: "\"";
+}
+
+span:lang(la):after {
+    content: "\"";
+}
+
+footer a {
+    font-style: italic;
+    color: #808080;
+}

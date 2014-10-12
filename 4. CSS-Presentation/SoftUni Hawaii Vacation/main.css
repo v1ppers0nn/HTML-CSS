@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("images/HawaiiBackground.png");
+    width: 900px;
+    height: 600px;
+
+}
+
+.alex {
+    content: url("images/AlexHula.png");
+    position: absolute;
+    left: 490px;
+    top: 205px;
+}
+
+.nakov {
+    content: url("images/NakovHula.png");
+    position: absolute;
+    top: 160px;
+    left: 410px;
+}
+
+.petya {
+    content: url("images/PetiaHula.png");
+    position: absolute;
+    top: 190px;
+    left: 180px;
+}
+
+.tedi {
+    content: url("images/TediHula.png");
+    position: absolute;
+    top: 355px;
+    left: 260px;
+}
+
+.vladoG {
+    content: url("images/VladoGHula.png");
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+.vladoK {
+    content: url("images/VladoKHula.png");
+    position: absolute;
+    top: 235px;
+    left: 670px;
+}
+
+.nebe {
+    width: 900px;
+    height: 600px;
+    background: #0067DB;
+    background: -o-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: -webkit-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: -moz-radial-gradient(20% 20%, farthest-side,#ffffff 5%, #F9F8B7 10%, #F9F8B7 10%,#ffffff 20%,#0067DB);
+    background: radial-gradient(5% 5%, farthest-side, #ffffff 10%, #fffda0 ,#ffffff ,#0067DB);
+}
+
+@font-face {
+    font-family: 'Animated'; /*a name to be used later*/
+    src: url('Animated.ttf'); /*URL to font*/
+}
+
+p.text {
+    text-align: right;
+    padding: 15px;
+    font-size: 52px;
+    color: orange;
+    font-family: Animated;
+}
