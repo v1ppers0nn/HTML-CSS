@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+
+.main {
+    width: 650px;
+    height: 350px;
+    padding: 20px;
+    background: #f1f1f1;
+    font-size: 14px;
+}
+
+form {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+h2 {
+    color: #234465;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin: 7px;
+    padding: 5px;
+    padding-top: 7px;
+    border-style: none;
+    width: 300px;
+    height: 257px;
+    display: inline-block;
+    float: left;
+}
+
+input {
+    margin: 7px;
+    padding: 5px;
+    width: 272px;
+    height: 20px;
+}
+
+input#remember {
+    margin-left: 7px;
+    margin-right: 2px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+
+label.remember {
+    font-size: 11px;
+}
+
+button {
+    margin: 5px;
+    float: right;
+}
+
+button.reg {
+    width: 150px;
+    height: 40px;
+    border: 2px solid #234465;
+    background: transparent;
+    color: #000084;
+}
+
+button.log {
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #FF9C00;
+    color: white;
+    font-size: 15px;
+}
+
+span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #717171;
+    margin: 7px;
+}
+
+span.blue {
+    color: #234465;
+}
+
+span.white {
+    color: white;
+}
+
+fieldset.blue {
+    background: #234465;
+    float: right;
+    color: white;
+}
+
+p>a {
+    padding-right: 20px;
+    float: right;
+    font-size: 13px;
+    color: white;
+    text-decoration: underline;
+}
+
+p.first {
+    color: #6d6d6d;
+    font-size: 13px;
+}

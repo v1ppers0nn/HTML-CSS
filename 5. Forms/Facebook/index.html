@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook registration form</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class="main">
+        <h1>fakebook<span class="reg">&reg;</span></h1>
+        <h2>Registration</h2>
+        <h4>It is safe and it will always be!</h4>
+
+        <form action="post">
+            <fieldset class="left">
+                <legend>None-Important Information</legend>
+                <input type="text" placeholder="First Name"/>
+                <input type="text" placeholder="Last Name"/>
+                <input type="email" placeholder="Your Email"/>
+                <input type="number" placeholder="Phone Number"/>
+                <input type="password" placeholder="Your Password"/>
+                <input type="url" placeholder="Website"/>
+                <label for="birthday">Birthday</label>
+                <br/>
+                <input class="birth" type="datetime-local" value="2014-05-09T13:58:00.00" id="birthday"/>
+                <br/>
+                <input type="radio" id="fm"/>
+                <label for="fm">Female</label>
+                <input type="radio" id="ml"/>
+                <label for="ml">Male</label>
+                <input type="radio" id="other"/>
+                <label for="other">Other</label>
+                <input type="reset" value="Clear Form"/>
+            </fieldset>
+
+            <fieldset class="right">
+                <legend>Important Information *required</legend>
+                <select class="firstRow" name="country" id="country" required="required">
+                    <option disabled="disabled" value="1">Country</option>
+                    <option value="2">Bulgaria</option>
+                    <option value="3">Italy</option>
+                </select>
+                <input class="firstRow" type="text" placeholder="Village" required="required"/>
+                <input class="firstRow" type="text" placeholder="District" required="required"/>
+                <input class="secondRowstreet" type="text" placeholder="Street" required="required"/>
+                <input class="secondRowthree" type="text" placeholder="Nr"required="required"/>
+                <input class="secondRowthree" type="text" placeholder="Floor" required="required"/>
+                <input class="secondRowthree" type="text" placeholder="Ap Nr" required="required"/>
+                <br/>
+                <label for="doorcolor">Door Color</label>
+                <br/>
+                <input class="thirdRow" type="color" id="doorcolor" value="#ff80c0" required="required"/>
+                <input class="thirdRow" type="text" placeholder="Water Meter Nr" required="required"/>
+                <select class="thirdRow" name="panties" id="panties" required="required">
+                    <option value="1" disabled="disabled">Aunt Panties' Size</option>
+                    <option value="2">X</option>
+                    <option value="3">XXL</option>
+                </select>
+                <br/>
+                <label for="moreInf">More Personal Information</label>
+                <br/>
+                <textarea name="moreinfo" id="moreInf" cols="63" rows="7" placeholder="Give Us More Information!!!" required="required"></textarea>
+                <input type="submit" value="Register">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

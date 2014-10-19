@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flight Order</title>
+    <link rel="stylesheet" href="main.css"/>
+</head>
+<body>
+    <div class="main">
+        <h1>FLIGHT ORDER</h1>
+        <form action="post">
+            <fieldset>
+                <label for="from">From</label>
+                <select class="left" name="city" id="from" >
+                    <option value="0">enter a city</option>
+                    <option value="1">София</option>
+                    <option value="2">Пловдив</option>
+                    <option value="3">Варна</option>
+                    <option value="4">Бургас</option>
+                    <option value="5">Сливен!</option>
+                </select>
+                <br/>
+                <label for="start">Departure Date</label>
+                <input type="date" id="start" value="2014-06-09"/>
+                <label for="return">Return Date</label>
+                <input type="date" id="return" value="2014-06-13"/>
+                <label class="one-thirdlab" for="12">12+</label>
+                <label class="one-thirdlab" for="2">2-12</label>
+                <label class="one-thirdlab" for="0">0-2</label>
+                <br/>
+                <input class="one-third" type="number" id="12" min="13" max="100" value="0"/>
+                <input class="one-third" type="number" id="2" min="2" max="12" value="0"/>
+                <input class="one-third" type="number" id="0" min="0" max="2" value="0"/>
+            </fieldset>
+            <fieldset class="right">
+                <label for="to">To</label>
+                <select name="city" id="to" >
+                    <option value="0">enter a city</option>
+                    <option value="1">София</option>
+                    <option value="2">Пловдив</option>
+                    <option value="3">Варна</option>
+                    <option value="4">Бургас</option>
+                    <option value="5">Сливен!</option>
+                </select>
+                <input class="chek" type="checkbox" id="direct"/>
+                <label for="direct">Prefer directs</label>
+                <br/>
+                <label for="time">Time Interval</label>
+                <br/>
+                <input class="fifty" type="time" id="time" value="00:20"/> <input class="fifty" type="time" value="05:00"/>
+                <br/>
+                <label for="return">Time Interval</label>
+                <br/>
+                <input class="fifty" type="time" value="16:00"/> <input class="fifty" type="time" value="22:00"/>
+                <br/>
+                <label for="class">Choose class</label>
+                <select name="class" id="class">
+                    <option value="1">Economy</option>
+                    <option value="2">First</option>
+                    <option value="3">Second</option>
+                </select>
+                <button>Search</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

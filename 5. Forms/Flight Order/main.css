@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 450px;
+    height: 290px;
+    background: lightpink;
+    font-size: 12px;
+    padding: 5px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+form {
+    display: inline-block;
+
+}
+
+fieldset {
+    border: none;
+    width: 200px;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+fieldset.right {
+    float: right;
+}
+
+.one-third {
+    width: 30%;
+}
+
+.fifty {
+    width: 47%;
+}
+
+input, label, select {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    vertical-align: top;
+}
+
+.one-thirdlab {
+    width: 30%;
+    padding-right: 40px;
+}
+
+.chek {
+    width: 10px;
+}
+
+select.left {
+    margin-bottom: 30px;
+}
+
+button {
+    width: 200px;
+    padding: 5px;
+}
+
+select option {
+    font-weight: bold;
+}
