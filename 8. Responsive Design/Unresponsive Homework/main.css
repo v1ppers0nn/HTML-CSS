@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6799ff;
+    font-family: tahoma;
+}
+
+#wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header h1 {
+    border-bottom: 1px solid black;
+    padding-bottom: 3%;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 img {
+    padding-left: 10px;
+}
+
+nav {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    background: #ffffff;
+    font-size: 20px;
+
+}
+
+nav ul li a {
+    color: black;
+}
+
+section {
+    width: 74%;
+    display: inline-block;
+}
+
+section article {
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+    background-color: #e0eafe;
+    border: 1px solid black;
+}
+
+article header h1 {
+    font-size: 26px;
+    padding-bottom: 15px;
+}
+
+article div p {
+    text-indent: 40px;
+    word-spacing: 5px;
+}
+
+aside {
+    vertical-align: top;
+    width: 23%;
+    display: inline-block;
+    padding: 15px 15px 15px 10px;
+    margin-left: 10px;
+    margin-right: 2px;
+    background-color: #e0eafe;
+    border: 1px solid black;
+}
+
+aside div ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+aside div ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #e0eafe;
+    border: 1px solid black;
+}
+
+footer h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width:780px) and (max-width: 960px) {
+    article header h1 {
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+}
+
+@media only screen and (min-width:640px) and (max-width: 960px) {
+    nav {
+        margin-bottom: 30px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside {
+        width: 99.9%;
+        margin-left: 1px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+
+    aside ul li {
+        vertical-align: top;
+        width: 23%;
+        display: inline-block;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+
+    header h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+
+    header h1 img {
+        display: block;
+        margin: 0 auto;
+    }
+
+
+    nav ul li {
+        width: 80%;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    article header h1 {
+        font-size: 31px;
+    }
+
+    nav {
+        margin-bottom: 30px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    aside {
+        width: 99.9%;
+        margin-left: 1px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+    }
+
+    aside ul li {
+        vertical-align: top;
+        width: 100%;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+}

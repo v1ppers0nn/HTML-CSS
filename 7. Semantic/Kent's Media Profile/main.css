@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #ffc0cb;
+    padding: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 960px;
+
+}
+
+figure>img {
+    max-width: 100%;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+article.first {
+    width: 23%;
+}
+
+article.second {
+    max-width: 27%;
+    max-height: 100%;
+}
+
+article.third {
+    width: 44%;
+
+}
+
+article.second video {
+    width: 100%;
+    height:30%;
+}
+
+article.third video {
+    width: 111%;
+}
+
+audio {
+    max-width: 100%;
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+    font-family: tahoma;
+}
+
+meter {
+    width: 70%;
+}

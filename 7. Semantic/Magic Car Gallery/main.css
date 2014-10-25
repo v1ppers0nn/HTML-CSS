@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 560px;
+    margin: 0 auto;
+    padding: 20px;
+    background: black;
+    border-radius: 10px;
+    font-family: tahoma;
+}
+
+h1 {
+    color: #f2c108;
+    text-align: center;
+}
+
+article {
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+p {
+    color: white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+img {
+    width: 150px;
+    height: 130px;
+}
+
+iframe {
+    width: 202px;
+    text-align: center;
+    border: 1px solid #f2c108;
+}

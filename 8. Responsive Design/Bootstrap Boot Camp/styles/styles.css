@@ -1,0 +1,56 @@
+body {
+    font-size:14px;
+    font-family:tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.panel a {
+    color: black;
+    text-decoration: none;
+}
+
+.panel-heading, .panel-body {
+    border-bottom: 1px solid #428bca;
+}
+
+.panel-body:last-of-type {
+    border-bottom: none;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+.navbar-default {
+    background-color: #028102;
+    color: black;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: black;
+    background-color: #91ee91;
+}
+
+.btn-success {
+    color: black;
+    background-color: #ffffff;
+    border-color: black;
+}
+
+.panel-primary>.panel-heading {
+    color: black;
+    background-color: #91ee91;
+    border-color: gray;
+}
